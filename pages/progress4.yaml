@@ -1,0 +1,35 @@
+title:      Progress 4
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    For the fourth Progress report, you are to continue working towards
+    [Milestone 3], which involves implementing your initial **prototype**.
+    
+    During this week, you should focus on completing core features of
+    components of your software architecture. Additionally, you should assess
+    the choices you have made in [Milestone 2] regarding **related work**,
+    **resources**, **technology stack**, and **architecture** and determine if
+    adjustments need to be made.
+
+    By the end of this sprint, you should have a software artifact that
+    functions with a basic set of features you identified in [Milestone 2].
+
+    ### Deliverables
+    
+    For this **Progress Report**, your group must upload their presentation
+    slides to the group's project **Google Drive** folder.
+
+    Your group should provide evidence of your work by using their issues or
+    project management tools, working on the project repository, and
+    communicating via their group chat.
+
+    For this presentation, focus on discussing the technical and workflow
+    challenges you have faced and what decisions you have made to overcome
+    these obstacles.  Likewise, describe the progress you have made towards a
+    working **prototype**.
+
+    [Milestone 2]: milestone2.html
+    [Milestone 3]: milestone3.html

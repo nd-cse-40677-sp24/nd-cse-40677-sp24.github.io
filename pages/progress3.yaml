@@ -1,0 +1,36 @@
+title:      Progress 3
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    For the third Progress report, you are to begin work towards [Milestone 3],
+    which involves implementing your initial **prototype**.
+    
+    During this week, you should focus on ensuring everyone in the group can
+    contribute technically to the project and then begin dividing up the
+    features or architectual components to different group members.
+
+    Remember, that the idea behind the open source software development model
+    is to make small incremental changes that get integrated into the larger
+    project.  Break down your features and components into smaller individual
+    tasks and then iterate on those more concise goals.
+
+    By the end of this sprint, you should have a **software artifact that
+    builds** and is **usable by everyone in the group**.
+
+    ### Deliverables
+    
+    For this **Progress Report**, your group must upload their presentation
+    slides to the group's project **Google Drive** folder.
+
+    Your group should provide evidence of your work by using their issues or
+    project management tools, working on the project repository, and
+    communicating via their group chat.
+
+    For this presentation, focus on discussing your use of the project
+    infrastructure, the division of labor, and the core components of your
+    project.
+
+    [Milestone 3]: milestone3.html

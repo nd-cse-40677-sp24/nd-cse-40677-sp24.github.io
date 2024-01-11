@@ -1,0 +1,67 @@
+title:      Milestone 2
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+    
+    Now that you have your project infrastructure setup and configured, you are
+    now to begin the work of designing and planning your open source project.
+
+    For the second **Milestone**, your group must accomplish the following tasks:
+
+    1. **Related Work**: Identify any relevant related work (ie. existing
+    projects, products, software, etc.).
+        
+        - Consider what you can take or learn from this related work.
+
+        - Describe how your project is different for this related work.
+
+    2. **Resources**: Enumerate any necessary hardware, software, or computing
+    resources (ie. Raspberry Pis, cloud computing credits, software licenses,
+    etc.).
+
+    3. **Technology Stack**: Determine which set of technologies or platforms
+    you will be using in your project (ie. programming language, libraries,
+    development tools, etc.).
+
+        - Explore these technologies to determine if they are viable or not.
+
+        - Ensure all project members can develop with the chosen technology
+          stack.
+
+    4. **Architecture**: Outline the key architectural components of your
+    project. 
+
+        - Mock up the user interface of your project (if it requires one).  
+
+        - Draw diagrams to illustrate the components of your software.
+
+    5. **MVP**: Determine exactly what the end goal of the project should be.
+
+        - Enumerate the absolute minimum set of realistic goals for the semester.
+
+            - Break down these goals into discrete features or components.
+
+            - Consider what tasks need to be done to implement these features.
+
+        - Describe the ultimate set of aspirational goals given abundant time
+          and resources.
+
+    ### Deliverables
+    
+    For this **Milestone**, your group must present the overall **project
+    design** to the class and instructor.
+
+    1. The group must upload their presentation slides to their project
+    **Google Drive** folder.
+
+    2. The group must be prepared to explain how their project is different
+    from existing related work.
+
+    3. The group must be prepared to illustrate the design of their project and
+    to discuss the various components of the system.
+
+    4. The group must be prepared to discuss both their realistic and
+    aspirational goals for their project deliverable.
+

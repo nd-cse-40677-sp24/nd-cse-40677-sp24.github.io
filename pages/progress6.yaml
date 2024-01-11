@@ -1,0 +1,40 @@
+title:      Progress 6
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    For the sixth Progress report, you are to prepare for your public
+    announcement as specified in [Milestone 4].
+    
+    During this week, you begin planning your short video that provides an
+    overview of your project, its goals, its features, and your contributions.
+    Moreover, you consider updating your website to highlight this information.
+
+    Likewise, you should produce packaging and documentation for end users who
+    wish to download and utilize your software (not necessarily build it and
+    contribute code).  Again, this may require investigating operating system
+    or language specific package management systems.
+
+    By the end of this sprint, you should be ready to make your public
+    announcement.
+
+    ### Deliverables
+    
+    For this **Progress Report**, your group must upload their presentation
+    slides to the group's project **Google Drive** folder.
+
+    Your group should provide evidence of your work by using their issues or
+    project management tools, working on the project repository, and
+    communicating via their group chat.
+
+    For this presentation, focus on discussing on the content and structure of
+    your announcement (what do you want to highlight and what story do you wish
+    to tell to users).  Likewise, provide an overview of how you expect end
+    users to utilize your software artifact.  Finally, discuss where you plan
+    on making your public announcement.  If there is some work left to be done
+    on the prototype, briefly highlight the remaining obstacles and your plans
+    for them as well.
+
+    [Milestone 4]: milestone4.html

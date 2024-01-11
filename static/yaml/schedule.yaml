@@ -1,0 +1,176 @@
+- name:     "Milestone 1: Infrastructure"
+
+- name:     Open Source Software
+  days:
+      - date:           Wed 01/17
+        topics:         Copyright, History
+
+      - date:           Fri 01/19
+        topics:         Licenses, Culture, Principles
+        assignment:     Progress 0
+
+- name:     Infrastructure
+  days:
+      - date:           Mon 01/22
+        topics:         Sprint
+
+      - date:           Wed 01/24
+        topics:         Briefing (Odds)
+        assignment:     Progress 1
+
+      - date:           Fri 01/26
+        topics:         Briefing (Evens)
+
+- name:     Milestone 1
+  days:
+      - date:           Mon 01/29
+        topics:         Sprint
+
+      - date:           Wed 01/31
+        topics:         Presentation (Odds)
+        assignment:     Milestone 1
+
+      - date:           Fri 02/02
+        topics:         Presentation (Evens)
+
+- name:     "Milestone 2: Design"
+
+- name:     Design
+  days:
+      - date:           Mon 02/05
+        topics:         Sprint
+
+      - date:           Wed 02/07
+        topics:         Briefing (TBD)
+        assignment:     Progress 2
+
+      - date:           Fri 02/09
+        topics:         Briefing (TBD)
+
+- name:     Milestone 2
+  days:
+      - date:           Mon 02/12
+        topics:         Sprint
+
+      - date:           Wed 02/14
+        topics:         Presentation (TBD)
+        assignment:     Milestone 2
+
+      - date:           Fri 02/16
+        topics:         Presentation (TBD)
+
+- name:     "Milestine 3: Prototype"
+
+- name:     Prototype
+  days:
+      - date:           Mon 02/19
+        topics:         Sprint
+
+      - date:           Wed 02/21
+        topics:         Briefing (TBD)
+        assignment:     Progress 3
+
+      - date:           Fri 02/23
+        topics:         Briefing (TBD)
+
+      - date:           Mon 02/26
+        topics:         Sprint
+
+      - date:           Wed 02/28
+        topics:         Briefing (TBD)
+        assignment:     Progress 4
+
+      - date:           Fri 03/01
+        topics:         Briefing (TBD)
+
+- name:     Milestone 3
+  days:
+      - date:           Mon 03/04
+        topics:         Sprint
+
+      - date:           Wed 03/06
+        topics:         Presentation (TBD)
+        assignment:     Milestone 3
+
+      - date:           Fri 03/08
+        topics:         Presentation (TBD)
+
+- name:     Spring Break
+
+- name:     "Milestone 4: Packaging"
+
+- name:     Packaging
+  days:
+      - date:           Mon 03/18
+        topics:         Sprint
+
+      - date:           Wed 03/20
+        topics:         Briefing (TBD)
+        assignment:     Progress 5
+
+      - date:           Fri 03/22
+        topics:         Briefing (TBD)
+
+      - date:           Mon 03/25
+        topics:         Sprint
+
+      - date:           Wed 03/27
+        topics:         Sprint
+
+      - date:           Fri 03/29
+        topics:         Easter
+
+- name:     Milestone 4
+  days:
+      - date:           Mon 04/01
+        topics:         Easter
+
+      - date:           Wed 04/03
+        topics:         Briefing (TBD)
+        assignment:     Progress 6
+
+      - date:           Fri 04/05
+        topics:         Briefing (TBD)
+
+      - date:           Mon 04/08
+        topics:         Sprint
+
+      - date:           Wed 04/10
+        topics:         Presentation (TBD)
+        assignment:     Milestone 4
+
+      - date:           Fri 04/12
+        topics:         Presentation (TBD)
+
+- name:     "Milestone 5: Debriefing"
+
+- name:     "Debriefing"
+  days:
+      - date:           Mon 04/15
+        topics:         Sprint
+
+      - date:           Wed 04/17
+        topics:         Briefing (TBD)
+        assignment:     Progress 8
+
+      - date:           Fri 04/19
+        topics:         Briefing (TBD)
+
+      - date:           Mon 04/22
+        topics:         Sprint
+
+      - date:           Wed 04/24
+        topics:         Briefing (TBD)
+        assignment:     Progress 9
+
+      - date:           Fri 04/26
+        topics:         Briefing (TBD)
+
+- name:     "Milestone 5"
+  days:
+      - date:           Mon 04/29
+        assignment:     Milestone 5
+        topics:         Presentation (TBD)
+
+      - date:           Wed 05/01
+        topics:         Presentation (TBD)

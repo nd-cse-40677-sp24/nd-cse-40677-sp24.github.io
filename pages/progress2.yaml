@@ -1,0 +1,33 @@
+title:      Progress 2
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    For the second Progress report, you are to begin work towards [Milestone 2],
+    which involves designing and planning for your open source project.
+    
+    During this week, you should focus on the first few tasks:
+
+    1. Identifying related work.
+
+    2. Enumerating any necessary resources.
+
+    3. Determining your technology stack.
+
+    Given enough time, you should then focus on the remaining tasks:
+
+    4. Outlining your architecture.
+
+    5. Setting the goals for your MVP.
+
+    ### Deliverables
+    
+    For this **Progress Report**, your group must upload their presentation
+    slides to the group's project **Google Drive** folder.  While you are not
+    expected to have finalized all the details of your **design** choices, you
+    should be able to describe some of your decisions and thoughts in regards
+    to the topics above.
+
+    [Milestone 2]: milestone2.html

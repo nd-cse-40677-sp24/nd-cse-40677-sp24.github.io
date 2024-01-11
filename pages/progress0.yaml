@@ -1,0 +1,42 @@
+title:      Progress 0
+icon:       fa-flag-checkered
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-code"
+internal:
+external:
+body:       |
+
+    For the preliminary **Progress Report**, you are to summarize your project
+    proposal in the form of presentation slides that address the following
+    questions:
+    
+    1. What is the **big picture** idea behind your project?
+
+        a. What **problem** is it trying solve?
+
+        b. What do you hope to **learn** while working on this project?
+
+        c. What role does **open source** play in your project?
+
+    2. Who are the **group members** in this project?
+
+        a. What **talents** and **skills** does each person bring to the table?
+
+        b. How does each person plan on **contributing** to the project?
+
+        c. How will the group make decisions and **organize** itself?
+
+    3. What are your initial ideas for the project **deliverables**?
+
+        a. What sort of **software artifact** or **service** do you plan on building?
+
+        b. What would constitute **success** for your group?
+
+        c. What **barriers** or **obstacles** does the group foresee?
+
+    ### Deliverables
+    
+    For this **Progress Report**, your group must upload their presentation slides to
+    the group's project **Google Drive** folder.

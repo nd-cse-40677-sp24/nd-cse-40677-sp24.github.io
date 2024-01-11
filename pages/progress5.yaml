@@ -1,0 +1,42 @@
+title:      Progress 5
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    For the fifth Progress report, you are to begin work towards [Milestone 4],
+    which involves announcing your project to the public.
+    
+    During this week, you should focus solidifying your developer and
+    contributor documentation.  Make sure that any that your repository has a
+    clear guide on how to build, install, or deploy your software.  This means
+    that you may need to look into language or operating system specific
+    package managers or dependency systems.
+
+    Additionally, you should continue addressing any remaining incomplete
+    features or bugs left in your initial prototype.  While you want to cover
+    as many of the goals set out earlier in the semester, your true goal is
+    ensure the project has the necessary infrastructure for future development.
+
+    By the end of this sprint, you should have a software artifact that builds
+    and is usable by anyone.
+
+    ### Deliverables
+    
+    For this **Progress Report**, your group must upload their presentation
+    slides to the group's project **Google Drive** folder.
+
+    Your group should provide evidence of your work by using their issues or
+    project management tools, working on the project repository, and
+    communicating via their group chat.
+
+    For this presentation, focus on discussing on the developer and
+    contribution documentation you have written.  Likewise, provide an overview
+    of what it would take to setup a developer environment for someone who
+    wants to contribute to your project.  Additionally, investigate using
+    language or operating system specific package managers or containerization
+    systems.  Finally, provide a brief update on any new features or fixes with
+    your prototype.
+
+    [Milestone 4]: milestone4.html

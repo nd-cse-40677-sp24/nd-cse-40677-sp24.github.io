@@ -1,0 +1,54 @@
+title:      Milestone 5
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    Now that you have experienced setting up, building, and releasing an open
+    source project, you are to reflect on the experience in a **debriefing**
+    presentation.
+
+    For the fifth **Milestone**, your group must accomplish the following
+    tasks:
+
+    1. **Prototype**: Complete the remaining goals you set out for your
+    **minimum viable product** (as discussed in [Milestone 2]).
+
+    2. **Contributions**: Triage and shepherd any outside contributions or
+    feedback received from your **public announcement** in [Milestone 4]).
+
+    3. **Debriefing**: Make a presentation that summarizes what you learned
+    from this experience in open source software development:
+
+        - What are the challenges to open source software development?
+
+        - What are the benefits of open source software development?
+
+        - How is this process different from what you have done in other
+          classes or at internships?
+
+        - Do you plan on continuing the work on your project?
+
+        - Do you plan on contributing to other open source projects?
+
+    ### Deliverables
+
+    For this **Milestone**, your group must provide a **debriefing** about
+    their open source software development experience with the class and
+    instructor.
+
+    1. The group must upload their presentation slides to their project
+    **Google Drive** folder.
+
+    2. The group must triage and integrate reasonable feedback and
+    contributions from external developers and users.
+
+    3. The group must provide an update of the final state of their software
+    artifact.
+
+    4. The group must discuss their future plans.
+
+    [Milestone 1]: milestone1.html
+    [Milestone 2]: milestone2.html
+    [Milestone 4]: milestone4.html

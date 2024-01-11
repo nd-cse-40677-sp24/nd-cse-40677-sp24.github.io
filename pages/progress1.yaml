@@ -1,0 +1,54 @@
+title:      Progress 1
+icon:       fa-flag-checkered
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-code"
+internal:
+external:
+body:       |
+
+    For the first **Progress Report**, you are to work towards [Milestone 1]
+    by determining what **infrastructure** and **organization** do you wish to
+    utilize throughout the semester.  To help you in this process, consider the
+    following questions:
+
+    1. Do you have a **project name**?
+
+    2. Do you have a **web presence**?
+
+        - Who has experience with web development?
+
+        - What platform or tools will you be using for this?
+
+    3. Do you have a **code repository**?
+
+        - Who has control or access to your project(s)?
+
+        - Who has adminstrative (ie. merge) permissions?
+
+        - What is your development workflow (branches, approvals, etc)?
+
+        - How will you test or verify that your project works?
+
+    4. What **communal development** tools or services are you considering?
+
+        - Are there any obstacles or challenges preventing you from using or
+          adopting these tools or services?
+
+        - What are your experiences with these tools or services?
+
+    5. Which **open source licenses** are you considering?
+
+        - Do any of the tools, frameworks, or libraries you are considering
+          impact your decision?
+
+    ### Deliverables
+
+    For this **Progress Report**, your group must upload their presentation
+    slides to the group's project **Google Drive** folder.  While you are not
+    expected to have finalized all the details of your **infrastructure**
+    choices, you should be able to describe some of your decisions and thoughts
+    in regards to the questions above.
+
+    [Milestone 1]: milestone1.html

@@ -1,0 +1,350 @@
+title:      Open Source Software Development
+icon:       fa-code
+navigation:
+    - name: "Logistics"
+      link: "#logistics"
+      icon: "fa-cogs"
+    - name: "Schedule"
+      link: "#schedule"
+      icon: "fa-calendar"
+    - name: "Requirements"
+      link: "#Requirements"
+      icon: "fa-balance-scale"
+    - name: "Resources"
+      link: "#resources"
+      icon: "fa-external-link"
+internal:
+external:
+    projects:   'static/yaml/projects.yaml'
+    schedule:   'static/yaml/schedule.yaml'
+body:       |
+    
+    <img src="static/img/osi.png" class="pull-right" style="margin-left: 10px;"/>
+
+    <div class="row" markdown="1">
+
+    **CSE 40677** Open Source Software Development is an elective [Computer
+    Science and Engineering] course that is designed to give the advanced
+    student the opportunity to create and implement a significant open-source
+    software project. The goal is not merely to write code, but to create the
+    infrastructure necessary for a sustainable project, including web pages,
+    documentation, bug tracking, discussion groups, and more. With luck, the
+    project may gain new contributors and have a life beyond that of the
+    semester project!
+
+    [Computer Science and Engineering]:     http://cse.nd.edu
+    [University of Notre Dame]:             http://www.nd.edu
+
+    </div>
+
+    <div class="row">
+        <div class="page-header">
+            <h2 id="logistics"><i class="fa fa-cogs"></i> Logistics</h2>
+        </div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-3">
+        <h3>Class Information</h3>
+        <dl>
+            <dt><i class="fa fa-clock-o"></i> Lecture</dt>
+            <dd><strong>M/W/F</strong> 9:25 AM - 10:15 AM</dd>
+
+            <dt><i class="fa fa-home"></i> Location</dt>
+            <dd>129 DeBartolo Hall</dd>
+
+            <dt><i class="fa fa-envelope"></i> Mailing List</dt>
+            <dd><a href="mailto:sp24-cse-40677-01-group@nd.edu">sp24-cse-40677-01-group@nd.edu</a></dd>
+
+            <dt><i class="fa fa-slack"></i> Slack</dt>
+            <dd><a href="https://nd-cse.slack.com/messages/cse-40677-sp24/">#cse-40677-sp24</a></dd>
+            
+            <dt><i class="fa fa-github"></i> GitHub</dt>
+            <dd><a href="https://github.com/nd-cse-40677-sp24">nd-cse-40677-sp24</a></dd>
+        </dl>
+    </div>
+    <div class="col-md-3">
+        <h3>Instructor</h3>
+
+        <dl>
+            <dt><i class="fa fa-user"></i> Instructor</dt>
+            <dd><a href="http://www3.nd.edu/~pbui/">Peter Bui</a> (<a href="mailto:pbui@nd.edu">pbui@nd.edu</a>)</dd>
+
+            <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
+            <dd><strong>M/T/W/TH/F</strong> 2:00 PM - 3:30 PM, and by <strong>appointment</strong></dd>
+
+            <dt><i class="fa fa-briefcase"></i> Office Location</dt>
+            <dd>326D Cushing Hall</dd>
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <h3>Projects</h3>
+
+        <dl>
+
+        {% for index, project in enumerate(page.external['projects'], 1) %}
+
+        <dt><a href="{{ project['link'] }}">Project {{ '{:02}'.format(index) }}: {{ project['name'] }}</a></dt>
+        <dd>
+        {% set members = sorted(project['members']) %}
+        <tt>{{ members[0] }}</tt>
+        {% for member in members[1:] %}
+        , <tt>{{ member }}</tt>
+        {% end %}
+        </dd>
+        {% end %}
+        </dl>
+
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="page-header">
+            <h2 id="schedule"><i class="fa fa-calendar"></i> Schedule</h2>
+        </div>
+    </div>
+
+    <style>
+    table.schedule td.unit {
+        background-color: #fff;
+        border-right: 2px solid #ddd;
+        text-align: right;
+        width: 175px;
+        vertical-align: middle;
+    }
+    </style>
+
+    <div class="row">
+        <table class="table condensed table-striped schedule">
+            <thead>
+                <tr>
+                    <th class="text-center">Unit</th>
+                    <th class="text-center" style="width: 100px;">Date</th>
+                    <th class="text-center">Topics</th>
+                    <th class="text-center" style="width: 125px;">Deliverables</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for theme in page.external['schedule'] %}
+                {% if 'break' in theme['name'].lower() or theme.get('days', None) is None %}
+                  <tr>
+                  <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">{{ theme['name'] }}</td>
+                  </tr>
+                  {% continue %}
+                {% end %}
+
+                {% for index, day in enumerate(theme['days']) %}
+                <tr>
+                {% if index == 0 %}
+                    <td rowspan="{{ len(theme['days']) }}" class="text-strong text-primary text-center unit">{{ theme['name'] }}</td>
+                {% end %}
+                    <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
+                    <td class="text-strong">
+                    {% if 'Easter' in day.get('topics', '') or 'Sprint' in day.get('topics', '') %}
+                    <i class="text-muted">{{ day.get('topics', '') }}</i>
+                    {% else %}
+                    {{ day.get('topics', '') }}
+                    {% end %}
+                    {% for item in day.get('items', []) %}
+                    {% if item['name'].lower() in ('midterm', 'final') or item['name'].lower().startswith('exam') %}
+                      {% set item['label'] = 'danger' %}
+                    {% elif item['name'].lower().startswith('checklist') %}
+                      {% set item['label'] = 'info' %}
+                    {% elif item['name'].lower().startswith('notebook') %}
+                      {% set item['label'] = 'success' %}
+                    {% else %}
+                      {% set item['label'] = 'default' %}
+                    {% end %}
+                    {% if 'link' in item %}
+                      <a class="label label-{{ item['label'] }}" href="{{ item['link'] }}">{{ item['name'] }}</a>
+                    {% else %}
+                      <span class="label label-{{ item['label'] }}">{{ item['name'] }}</span>
+                    {% end %}
+                    {% end %}
+                    </td>
+                    <td class="text-center text-strong">
+                    {% set assignment = day.get('assignment') %}
+                    {% if assignment %}
+                    {% set assignment_id = ''.join(assignment.lower().split()) %}
+                    {% if assignment_id.startswith('milestone') %}
+                      {% set assignment_label = 'caution' %}
+                    {% elif assignment_id.startswith('progress') %}
+                      {% set assignment_label = 'primary' %}
+                    {% else %}
+                      {% set assignment_label = 'success' %}
+                    {% end %}
+                      <a href="{{ assignment_id }}.html" class="label label-{{ assignment_label }}">{{ assignment }}</a>
+                    {% end %}
+                    </td>
+                </tr>
+                {% end %}
+                {% end %}
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="alert alert-info">
+                <h4><i class="fa fa-calendar"></i> Class Meetings</h4>
+                <p>The class meeting time will be used for lecture unless it is one of the following types:</p>
+                <p> 
+                <ul>
+                <li><b>Sprint</b>: No class meeting.  Students will meet with their individual group to work on the current milestone.</li>
+                <li><b>Briefing</b>: No class meeting.  Students will meet with their individual group to brief the instructor on their current progress.</li>
+                <li><b>Presentation</b>: Students will present their group's milestone work to the class.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="page-header">
+            <h2 id="Requirements"><i class="fa fa-balance-scale"></i> Requirements</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+        <h3>Coursework</h3>
+        <table class="table table-condensed table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th class="text-center">Component</th>
+                    <th class="text-center">Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="label label-primary">Progress</span> Weekly Progress Reports.</td>
+                    <td class="text-center">8 &times; 5</td>
+                </tr>
+                <tr>
+                    <td><span class="label label-caution">Milestones</span> Project Milestones.</td>
+                    <td class="text-center">5 &times; 40</td>
+                </tr>
+                <tr>
+                    <td><span class="label label-danger">Requirements</span> Project Requirements.</td>
+                    <td class="text-center">5 &times; 5</td>
+                </tr>
+                <tr>
+                    <td><span class="label label-success">Contributions</span> Individual Contributions.</td>
+                    <td class="text-center">35</td>
+                </tr>
+                <tr>
+                    <td class="text-strong text-right">Total</td>
+                    <td class="text-strong text-center">300</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="col-md-6">
+        <h3>Grading</h3>
+        <table class="table table-condensed table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-center">Grade</th>
+                    <th class="text-center">Points</th>
+                    <th class="text-center">Grade</th>
+                    <th class="text-center">Points</th>
+                    <th class="text-center">Grade</th>
+                    <th class="text-center">Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="success">
+                    <td></td>
+                    <td></td>
+                    <td class="text-center text-strong">A</td>
+                    <td class="text-center">280-300</td>
+                    <td class="text-center text-strong">A-</td>
+                    <td class="text-center">270-279</td>
+                </tr>
+                <tr class="info">
+                    <td class="text-center text-strong">B+</td>
+                    <td class="text-center">260-269</td>
+                    <td class="text-center text-strong">B</td>
+                    <td class="text-center">250-259</td>
+                    <td class="text-center text-strong">B-</td>
+                    <td class="text-center">240-249</td>
+                </tr>
+                <tr class="warning">
+                    <td class="text-center text-strong">C+</td>
+                    <td class="text-center">230-239</td>
+                    <td class="text-center text-strong">C</td>
+                    <td class="text-center">220-229</td>
+                    <td class="text-center text-strong">C-</td>
+                    <td class="text-center">210-219</td>
+                </tr>
+                <tr class="danger">
+                    <td class="text-center text-strong">D</td>
+                    <td class="text-center">195-209</td>
+                    <td class="text-center text-strong">F</td>
+                    <td class="text-center">0-194</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+   
+    <div class="row" markdown="1">
+
+    Students will be graded on the following items:
+
+    1. **Progress Reports**: Each non-**Presentation** week, every group will
+    submit a slide deck to their group **Google Drive** folder that summarizes
+    the work they have done for that week, addresses any questions the
+    instructor has about their work, and describes their plans for the
+    upcoming week.
+
+    2. **Milestones**: At the end of each phase of the development cycle, every
+    group will present their work to the class in the form of a short
+    presentation and demonstration that addresses the requirements for that
+    particular milestone.
+
+    3. **Requirements**: At the end of the semester, the instructor will
+    evaluate how well the final project met the **Project Requirements**
+    enumerated below.
+
+    4. **Contributions**: At the end of the semester, students will be asked to
+    anonymously rate or evaluate their group members and external contributors
+    to determine their overall contribution to the project.
+
+    </div>
+    
+    <div class="row" markdown="1">
+    ### Project Requirements
+
+    Each course project will encompass all the elements necessary for a
+    successful open source project:
+
+    1. **Web Presence**: A public, high quality, and editable web presence
+    which includes a compelling project vision, instructions for downloading
+    and using the software, technical documentation and links regarding the
+    details of the software, and a description of the membership and governance
+    of the project.
+
+    2. **Code Repository**: The project source code must be maintained in a
+    public code repository, and changes accepted to the project through a
+    standardized process. There must be a simple and well-documented process
+    for building and using the source code.
+
+    3. **Communal Development**: Public venues for reporting bugs, requesting
+    help, and discussing project features. These may include issue trackers,
+    forum software, or whatever is most appropriate to the project. Project
+    development must be carried out using these tools.
+
+    4. **Contribution Process**: The project must have a formal process for
+    accepting contributions including mechanisms for code review, testing, and
+    automated verification and deployment of software artifacts.
+
+    5. **MVP**: The final version of the software must meet the requirements of
+    a **Minimum Viable Product (MVP)** which will be articulated by the team
+    early in the semester.
+
+    </div>

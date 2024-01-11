@@ -1,0 +1,75 @@
+title:      Milestone 4
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    Now that you have a working **prototype** of your project, you are to
+    prepare it for **public release**:
+
+    For the fourth **Milestone**, your group must accomplish the following tasks:
+
+    1. **Prototype**: Complete most of the remaining goals you set out for your
+    **minimum viable product**.
+
+        - Have technical contributions from all group members.
+
+        - Implement most of the goals or features identified in [Milestone 2].
+
+        - Software must be usable by all group members.
+    
+    2. **End User**: Produce packaging and documentation related to end user
+    installation, deployment, and usage of your software.
+
+        - Write a guide for installing and using your software.
+
+        - Update your website to highlight the key features of your software.
+
+        - Utilize appropriate software packaging techniques (ie.
+          langugage-specific package managers, Linux package managers, Flatpak,
+          Docker, etc.) for your project or project components.
+    
+    3. **Developer**: Setup repository for outside contributions:
+
+        - Write a guide on how to build and contribute to your software.
+
+        - Develop API or architectural documentation related to your codebase.
+
+        - Identify a few "good-first-issue" type issues and post them on your
+          issues board for newcomers to find.
+
+        - Explain the appropriate way to contribute to your project on your
+          website.
+    
+    4. **Announcement**: Publically announce the availability of your project
+    and describe what it does.
+
+        - Create a short video (**2 - 4 minutes**) that provides an overview of
+          your project, its goals, its features, and your contributions.
+
+        - Publish a page on your website that announces your project (can
+          include the feature highlights and the video mentioned above).
+
+        - Share your announcement post on Twitter, Reddit, Lobsters, Hacker
+          News, Slack, or wherever you feel comfortable sharing.
+
+    ### Deliverables
+
+    For this **Milestone**, your group must discuss your **public
+    announcement** with the class and instructor.
+
+    1. The group must upload their presentation slides to their project
+    **Google Drive** folder.
+
+    2. The group must update their website with the documentation and
+    announcements described above.
+    
+    3. The group must provide a status update of the state of their software
+    artifact, discuss how they expect users to use their softare, and explain
+    how they hope external contributors to help them out.
+
+    4. The group must discuss their announcement and where they published it.
+
+    [Milestone 1]: milestone1.html
+    [Milestone 2]: milestone2.html

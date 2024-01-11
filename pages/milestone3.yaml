@@ -1,0 +1,81 @@
+title:      Milestone 03
+icon:       fa-flag-checkered
+navigation: []
+internal:
+external:
+body:       |
+
+    Now that you have a general design and plan for your project, you are now
+    to work on the initial **prototype** of your project.
+
+    For the third **Milestone**, your group must accomplish the following tasks:
+
+    1. **Prototype**: Build the initial version of your **minimum viable
+    product**.  Although it does not need be feature complete, it must have the
+    following properties:
+
+        - Have technical contributions from all group members.
+
+        - Is usable by all group members.
+
+        - Implement a majority of the goals or features identified in [Milestone 2].
+
+    2. **Process**: Continue using the infrastructure configured and setup from
+    [Milestone 1]. This means that you should be doing the following:
+
+        - Identifying tasks on your issue or project trackers and making
+          progress on them.
+
+        - Contributing to your project's code repository.
+
+        - Filing issues or bug reports as necessary.
+
+        - Communicating via your group's chosen communication channels.
+
+    3. **Reflection**: Consider any adjustments that need to be made as you
+    make progress towards your initial **prototype**:
+
+        - Is there newly discovered **related work** that impacts your project?
+
+        - Do you need more or different **resources**?
+
+        - Is the **technology stack** you have chosen sufficient or will you
+          need to make changes?
+
+        - What changes (if any) to your **architecture** are necessary?
+
+        - Will you need to reconsider some of your goals for the **MVP**?
+
+    As you work towards the **prototype**, you should be following the open
+    source software development model of constant **iteration**.  It may be
+    useful to appoint one person as a **gatekeeper** of sorts to integrate and
+    coordinate the changes from different developers.  The exact management and
+    organization of the project is up to you, however.
+
+    ### Deliverables
+
+    For this **Milestone**, your group must demonstrate the initial
+    **prototype** to the class and instructor.
+
+    1. The group must upload their presentation slides to their project
+    **Google Drive** folder.
+
+    2. The group must update their website to include an announcement about the
+    progress they have made towards their **prototype**.  This should include
+    **screenshots**, **screencasts**, or **videos** demonstrating the
+    functionality and features of the **prototype**.
+
+    3. The group must continue to use their project **issues/project management
+    tools** to keep track of the tasks above and assign them to different
+    members of the group.  Each person should have ownership of a task, though
+    anyone can contribute.  The exact management of the workflow is left up to
+    the group.
+
+    4. The group must summarize the work they did for this milestone and
+    enumerate the **contributions of each member**.
+
+    5. The group should be able to **identify any unresolved issues or
+    obstacles** and to describe the decisions they made.
+
+    [Milestone 1]: milestone1.html
+    [Milestone 2]: milestone2.html
