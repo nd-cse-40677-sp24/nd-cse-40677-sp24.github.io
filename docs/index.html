@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Open Source Software Development</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="static/css/blugold.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+	body {
+	    padding: 10px;
+	}
+	</style>
+    </head>
+    <body>
+	<div class="container">
+
+	    <div class="row">
+		<div class="page-header">
+		    <ul class="nav nav-pills pull-right">
+			
+			<li><a href="#logistics"><i class="fa fa-cogs"></i> <span class="visible-md-inline visible-lg-inline">Logistics</span></a></li>
+			
+			<li><a href="#schedule"><i class="fa fa-calendar"></i> <span class="visible-md-inline visible-lg-inline">Schedule</span></a></li>
+			
+			<li><a href="#Requirements"><i class="fa fa-balance-scale"></i> <span class="visible-md-inline visible-lg-inline">Requirements</span></a></li>
+			
+			<li><a href="#resources"><i class="fa fa-external-link"></i> <span class="visible-md-inline visible-lg-inline">Resources</span></a></li>
+			
+		    </ul>
+		    <h1><i class="fa fa-code"></i> Open Source Software Development</h1>
+		</div>
+	    </div>
+
+            
+<p><img src="static/img/osi.png" class="pull-right" style="margin-left: 10px;"/></p>
+<div class="row">
+<p><strong>CSE 40677</strong> Open Source Software Development is an elective <a href="http://cse.nd.edu">Computer
+Science and Engineering</a> course that is designed to give the advanced
+student the opportunity to create and implement a significant open-source
+software project. The goal is not merely to write code, but to create the
+infrastructure necessary for a sustainable project, including web pages,
+documentation, bug tracking, discussion groups, and more. With luck, the
+project may gain new contributors and have a life beyond that of the
+semester project!</p>
+</div>
+<div class="row">
+    <div class="page-header">
+        <h2 id="logistics"><i class="fa fa-cogs"></i> Logistics</h2>
+    </div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+    <h3>Class Information</h3>
+    <dl>
+        <dt><i class="fa fa-clock-o"></i> Lecture</dt>
+        <dd><strong>M/W/F</strong> 9:25 AM - 10:15 AM</dd>
+
+        <dt><i class="fa fa-home"></i> Location</dt>
+        <dd>129 DeBartolo Hall</dd>
+
+        <dt><i class="fa fa-envelope"></i> Mailing List</dt>
+        <dd><a href="mailto:sp24-cse-40677-01-group@nd.edu">sp24-cse-40677-01-group@nd.edu</a></dd>
+
+        <dt><i class="fa fa-slack"></i> Slack</dt>
+        <dd><a href="https://nd-cse.slack.com/messages/cse-40677-sp24/">#cse-40677-sp24</a></dd>
+
+        <dt><i class="fa fa-github"></i> GitHub</dt>
+        <dd><a href="https://github.com/nd-cse-40677-sp24">nd-cse-40677-sp24</a></dd>
+    </dl>
+</div>
+<div class="col-md-3">
+    <h3>Instructor</h3>
+
+    <dl>
+        <dt><i class="fa fa-user"></i> Instructor</dt>
+        <dd><a href="http://www3.nd.edu/~pbui/">Peter Bui</a> (<a href="mailto:pbui@nd.edu">pbui@nd.edu</a>)</dd>
+
+        <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
+        <dd><strong>M/T/W/TH/F</strong> 2:00 PM - 3:30 PM, and by <strong>appointment</strong></dd>
+
+        <dt><i class="fa fa-briefcase"></i> Office Location</dt>
+        <dd>326D Cushing Hall</dd>
+    </dl>
+</div>
+<div class="col-md-6">
+    <h3>Projects</h3>
+
+    <dl>
+
+    
+
+    <dt><a href="None">Project 01: Web Shell</a></dt>
+    <dd>
+    
+    <tt>abannan</tt>
+    
+    , <tt>cvalenc3</tt>
+    
+    , <tt>hsanche5</tt>
+    
+    , <tt>jporubci</tt>
+    
+    , <tt>kwilli29</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 02: Pastebin</a></dt>
+    <dd>
+    
+    <tt>cbowers4</tt>
+    
+    , <tt>dblittsc</tt>
+    
+    , <tt>jflanag5</tt>
+    
+    , <tt>kconnor3</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 03: Lighting System</a></dt>
+    <dd>
+    
+    <tt>abayanzu</tt>
+    
+    , <tt>cbrown62</tt>
+    
+    , <tt>jcaven</tt>
+    
+    , <tt>jlindel2</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 04: Career Connections</a></dt>
+    <dd>
+    
+    <tt>cdixon5</tt>
+    
+    , <tt>cmatthe3</tt>
+    
+    , <tt>dblanco</tt>
+    
+    , <tt>egonza26</tt>
+    
+    , <tt>vmendez</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 05: 2D Video Game</a></dt>
+    <dd>
+    
+    <tt>brodrig5</tt>
+    
+    , <tt>dbrooks6</tt>
+    
+    , <tt>snelso24</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 06: Git-inspired Video Game</a></dt>
+    <dd>
+    
+    <tt>jpireshe</tt>
+    
+    , <tt>mchen24</tt>
+    
+    , <tt>ztong</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 07: Integrated Marketing</a></dt>
+    <dd>
+    
+    <tt>gelbling</tt>
+    
+    , <tt>gpradofe</tt>
+    
+    , <tt>zfarley</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 08: Financial Data Firefox Extension</a></dt>
+    <dd>
+    
+    <tt>jklonosk</tt>
+    
+    , <tt>scarnogu</tt>
+    
+    , <tt>toconn23</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 09: Isometric Horror Video Game</a></dt>
+    <dd>
+    
+    <tt>arodri37</tt>
+    
+    , <tt>dvazque2</tt>
+    
+    , <tt>scapodic</tt>
+    
+    , <tt>smancin2</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 10: Community-based Fitness Tracker</a></dt>
+    <dd>
+    
+    <tt>dbrown39</tt>
+    
+    , <tt>etracey</tt>
+    
+    , <tt>mturzai</tt>
+    
+    , <tt>wrobbins</tt>
+    
+    , <tt>yvu</tt>
+    
+    </dd>
+    
+
+    <dt><a href="None">Project 11: Deck Building Video Game</a></dt>
+    <dd>
+    
+    <tt>abattag2</tt>
+    
+    , <tt>jban</tt>
+    
+    , <tt>jwielgus</tt>
+    
+    , <tt>mliu5</tt>
+    
+    </dd>
+    
+    </dl>
+
+</div>
+</div>
+
+<div class="row">
+    <div class="page-header">
+        <h2 id="schedule"><i class="fa fa-calendar"></i> Schedule</h2>
+    </div>
+</div>
+
+<style>
+table.schedule td.unit {
+    background-color: #fff;
+    border-right: 2px solid #ddd;
+    text-align: right;
+    width: 175px;
+    vertical-align: middle;
+}
+</style>
+
+<div class="row">
+    <table class="table condensed table-striped schedule">
+        <thead>
+            <tr>
+                <th class="text-center">Unit</th>
+                <th class="text-center" style="width: 100px;">Date</th>
+                <th class="text-center">Topics</th>
+                <th class="text-center" style="width: 125px;">Deliverables</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            
+            
+              <tr>
+              <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">Milestone 1: Infrastructure</td>
+              </tr>
+              
+            
+
+            
+            <tr>
+            
+                <td rowspan="2" class="text-strong text-primary text-center unit">Open Source Software</td>
+            
+                <td class="text-center text-strong"><tt>Wed 01/17</tt></td>
+                <td class="text-strong">
+                
+                Copyright, History
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 01/19</tt></td>
+                <td class="text-strong">
+                
+                Licenses, Culture, Principles
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress0.html" class="label label-primary">Progress 0</a>
+                
+                </td>
+            </tr>
+            
+            
+            
+
+            
+            <tr>
+            
+                <td rowspan="3" class="text-strong text-primary text-center unit">Infrastructure</td>
+            
+                <td class="text-center text-strong"><tt>Mon 01/22</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 01/24</tt></td>
+                <td class="text-strong">
+                
+                Briefing (Odds)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress1.html" class="label label-primary">Progress 1</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 01/26</tt></td>
+                <td class="text-strong">
+                
+                Briefing (Evens)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+
+            
+            <tr>
+            
+                <td rowspan="3" class="text-strong text-primary text-center unit">Milestone 1</td>
+            
+                <td class="text-center text-strong"><tt>Mon 01/29</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 01/31</tt></td>
+                <td class="text-strong">
+                
+                Presentation (Odds)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="milestone1.html" class="label label-caution">Milestone 1</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 02/02</tt></td>
+                <td class="text-strong">
+                
+                Presentation (Evens)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+              <tr>
+              <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">Milestone 2: Design</td>
+              </tr>
+              
+            
+
+            
+            <tr>
+            
+                <td rowspan="3" class="text-strong text-primary text-center unit">Design</td>
+            
+                <td class="text-center text-strong"><tt>Mon 02/05</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 02/07</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress2.html" class="label label-primary">Progress 2</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 02/09</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+
+            
+            <tr>
+            
+                <td rowspan="3" class="text-strong text-primary text-center unit">Milestone 2</td>
+            
+                <td class="text-center text-strong"><tt>Mon 02/12</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 02/14</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="milestone2.html" class="label label-caution">Milestone 2</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 02/16</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+              <tr>
+              <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">Milestine 3: Prototype</td>
+              </tr>
+              
+            
+
+            
+            <tr>
+            
+                <td rowspan="6" class="text-strong text-primary text-center unit">Prototype</td>
+            
+                <td class="text-center text-strong"><tt>Mon 02/19</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 02/21</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress3.html" class="label label-primary">Progress 3</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 02/23</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Mon 02/26</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 02/28</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress4.html" class="label label-primary">Progress 4</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 03/01</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+
+            
+            <tr>
+            
+                <td rowspan="3" class="text-strong text-primary text-center unit">Milestone 3</td>
+            
+                <td class="text-center text-strong"><tt>Mon 03/04</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 03/06</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="milestone3.html" class="label label-caution">Milestone 3</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 03/08</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+              <tr>
+              <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">Spring Break</td>
+              </tr>
+              
+            
+              <tr>
+              <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">Milestone 4: Packaging</td>
+              </tr>
+              
+            
+
+            
+            <tr>
+            
+                <td rowspan="6" class="text-strong text-primary text-center unit">Packaging</td>
+            
+                <td class="text-center text-strong"><tt>Mon 03/18</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 03/20</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress5.html" class="label label-primary">Progress 5</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 03/22</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Mon 03/25</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 03/27</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 03/29</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Easter</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+
+            
+            <tr>
+            
+                <td rowspan="6" class="text-strong text-primary text-center unit">Milestone 4</td>
+            
+                <td class="text-center text-strong"><tt>Mon 04/01</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Easter</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 04/03</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress6.html" class="label label-primary">Progress 6</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 04/05</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Mon 04/08</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 04/10</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="milestone4.html" class="label label-caution">Milestone 4</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 04/12</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+              <tr>
+              <td colspan="4" class="text-center text-strong" style="border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 4px;">Milestone 5: Debriefing</td>
+              </tr>
+              
+            
+
+            
+            <tr>
+            
+                <td rowspan="6" class="text-strong text-primary text-center unit">Debriefing</td>
+            
+                <td class="text-center text-strong"><tt>Mon 04/15</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 04/17</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress8.html" class="label label-primary">Progress 8</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 04/19</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Mon 04/22</tt></td>
+                <td class="text-strong">
+                
+                <i class="text-muted">Sprint</i>
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 04/24</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="progress9.html" class="label label-primary">Progress 9</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Fri 04/26</tt></td>
+                <td class="text-strong">
+                
+                Briefing (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+            
+
+            
+            <tr>
+            
+                <td rowspan="2" class="text-strong text-primary text-center unit">Milestone 5</td>
+            
+                <td class="text-center text-strong"><tt>Mon 04/29</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                
+                
+                  
+                
+                  <a href="milestone5.html" class="label label-caution">Milestone 5</a>
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td class="text-center text-strong"><tt>Wed 05/01</tt></td>
+                <td class="text-strong">
+                
+                Presentation (TBD)
+                
+                
+                </td>
+                <td class="text-center text-strong">
+                
+                
+                </td>
+            </tr>
+            
+            
+
+        </tbody>
+    </table>
+</div>
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="alert alert-info">
+            <h4><i class="fa fa-calendar"></i> Class Meetings</h4>
+            <p>The class meeting time will be used for lecture unless it is one of the following types:</p>
+            <p> 
+            <ul>
+            <li><b>Sprint</b>: No class meeting.  Students will meet with their individual group to work on the current milestone.</li>
+            <li><b>Briefing</b>: No class meeting.  Students will meet with their individual group to brief the instructor on their current progress.</li>
+            <li><b>Presentation</b>: Students will present their group's milestone work to the class.</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="page-header">
+        <h2 id="Requirements"><i class="fa fa-balance-scale"></i> Requirements</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+    <h3>Coursework</h3>
+    <table class="table table-condensed table-bordered table-striped">
+        <thead>
+            <tr>
+                <th class="text-center">Component</th>
+                <th class="text-center">Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="label label-primary">Progress</span> Weekly Progress Reports.</td>
+                <td class="text-center">8 &times; 5</td>
+            </tr>
+            <tr>
+                <td><span class="label label-caution">Milestones</span> Project Milestones.</td>
+                <td class="text-center">5 &times; 40</td>
+            </tr>
+            <tr>
+                <td><span class="label label-danger">Requirements</span> Project Requirements.</td>
+                <td class="text-center">5 &times; 5</td>
+            </tr>
+            <tr>
+                <td><span class="label label-success">Contributions</span> Individual Contributions.</td>
+                <td class="text-center">35</td>
+            </tr>
+            <tr>
+                <td class="text-strong text-right">Total</td>
+                <td class="text-strong text-center">300</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class="col-md-6">
+    <h3>Grading</h3>
+    <table class="table table-condensed table-bordered">
+        <thead>
+            <tr>
+                <th class="text-center">Grade</th>
+                <th class="text-center">Points</th>
+                <th class="text-center">Grade</th>
+                <th class="text-center">Points</th>
+                <th class="text-center">Grade</th>
+                <th class="text-center">Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="success">
+                <td></td>
+                <td></td>
+                <td class="text-center text-strong">A</td>
+                <td class="text-center">280-300</td>
+                <td class="text-center text-strong">A-</td>
+                <td class="text-center">270-279</td>
+            </tr>
+            <tr class="info">
+                <td class="text-center text-strong">B+</td>
+                <td class="text-center">260-269</td>
+                <td class="text-center text-strong">B</td>
+                <td class="text-center">250-259</td>
+                <td class="text-center text-strong">B-</td>
+                <td class="text-center">240-249</td>
+            </tr>
+            <tr class="warning">
+                <td class="text-center text-strong">C+</td>
+                <td class="text-center">230-239</td>
+                <td class="text-center text-strong">C</td>
+                <td class="text-center">220-229</td>
+                <td class="text-center text-strong">C-</td>
+                <td class="text-center">210-219</td>
+            </tr>
+            <tr class="danger">
+                <td class="text-center text-strong">D</td>
+                <td class="text-center">195-209</td>
+                <td class="text-center text-strong">F</td>
+                <td class="text-center">0-194</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<div class="row">
+<p>Students will be graded on the following items:</p>
+<ol>
+<li>
+<p><strong>Progress Reports</strong>: Each non-<strong>Presentation</strong> week, every group will
+submit a slide deck to their group <strong>Google Drive</strong> folder that summarizes
+the work they have done for that week, addresses any questions the
+instructor has about their work, and describes their plans for the
+upcoming week.</p>
+</li>
+<li>
+<p><strong>Milestones</strong>: At the end of each phase of the development cycle, every
+group will present their work to the class in the form of a short
+presentation and demonstration that addresses the requirements for that
+particular milestone.</p>
+</li>
+<li>
+<p><strong>Requirements</strong>: At the end of the semester, the instructor will
+evaluate how well the final project met the <strong>Project Requirements</strong>
+enumerated below.</p>
+</li>
+<li>
+<p><strong>Contributions</strong>: At the end of the semester, students will be asked to
+anonymously rate or evaluate their group members and external contributors
+to determine their overall contribution to the project.</p>
+</li>
+</ol>
+</div>
+<div class="row">
+<h3 id="project-requirements">Project Requirements<a class="headerlink" href="#project-requirements" title="Permanent link">&para;</a></h3>
+<p>Each course project will encompass all the elements necessary for a
+successful open source project:</p>
+<ol>
+<li>
+<p><strong>Web Presence</strong>: A public, high quality, and editable web presence
+which includes a compelling project vision, instructions for downloading
+and using the software, technical documentation and links regarding the
+details of the software, and a description of the membership and governance
+of the project.</p>
+</li>
+<li>
+<p><strong>Code Repository</strong>: The project source code must be maintained in a
+public code repository, and changes accepted to the project through a
+standardized process. There must be a simple and well-documented process
+for building and using the source code.</p>
+</li>
+<li>
+<p><strong>Communal Development</strong>: Public venues for reporting bugs, requesting
+help, and discussing project features. These may include issue trackers,
+forum software, or whatever is most appropriate to the project. Project
+development must be carried out using these tools.</p>
+</li>
+<li>
+<p><strong>Contribution Process</strong>: The project must have a formal process for
+accepting contributions including mechanisms for code review, testing, and
+automated verification and deployment of software artifacts.</p>
+</li>
+<li>
+<p><strong>MVP</strong>: The final version of the software must meet the requirements of
+a <strong>Minimum Viable Product (MVP)</strong> which will be articulated by the team
+early in the semester.</p>
+</li>
+</ol>
+</div>
+
+
+	    <div class="row">
+		<hr/>
+
+		<footer class="text-center">
+		    <p class="text-muted">
+		    <small>
+		    Built using
+		    <a href="https://getbootstrap.com/">Bootstrap</a>,
+		    <a href="https://fontawesome.com/">Font Awesome</a>, and
+		    <a href="http://www.python.org/">Python</a>.
+		    <br/>
+		    &copy; 2024 <a href="http://www.nd.edu">University of Notre Dame</a>
+		    </small>
+		    </p>
+		</footer>
+	    </div>
+
+	</div> <!-- /container -->
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+    </body>
+</html>
+
