@@ -348,3 +348,22 @@ body:       |
     early in the semester.
 
     </div>
+
+    <div class="alert alert-success" markdown="1">
+    #### <i class="fa fa-check-square-o"></i> Major Project Requirement
+
+    This class includes a **semester project** that satisfies the **"Major
+    Project"** requirement for the B.S. in **Computer Science** degree. This
+    project will be much larger in scope than a regular assignment and will
+    require at least eight weeks to complete. Students will design the overall
+    goals and requirements of the project with guidance from the instructor.
+    The project will be developed gradually through the semester by producing a
+    **proposal**, **design documents**, **progress reports**, and
+    **presentations** as noted in the class schedule. The project will
+    necessarily draw upon skills and knowledge from prior classes, such as
+    **Fundamentals of Computing**, **Data Structures**, and **Systems
+    Programming**. The final deliverable of the project will be a working
+    **software artifact** or **service** that will be evaluated for overall
+    competence in computing skills.
+
+    </div>
