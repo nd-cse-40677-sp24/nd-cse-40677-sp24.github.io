@@ -3,11 +3,19 @@
 - name:     Open Source Software
   days:
       - date:           Wed 01/17
-        topics:         Copyright, History
+        topics:         Syllabus, Copyright, History
+        items:
+          - name:       Slides 00
+            link:       https://docs.google.com/presentation/d/1Wb8AFaQ4XULhj0Ba1YleuGWo31Rtr3VNDtbKW1U6t5U/edit?usp=sharing
+          - name:       Slides 01
+            link:       https://docs.google.com/presentation/d/1F7v-6FmgdAiAXDjI3ImhTCr5xYPs0i2TRdsy9SLtzac/edit?usp=sharing
 
       - date:           Fri 01/19
         topics:         Licenses, Culture, Principles
         assignment:     Progress 0
+        items:
+          - name:       Slides 02
+            link:       https://docs.google.com/presentation/d/1yFAOu1v7VUWOQQPa2Z45SvxJ9_Eu5UuC0NYQ0PDQXqo/edit?usp=sharing
 
 - name:     Infrastructure
   days:
