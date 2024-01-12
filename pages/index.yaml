@@ -87,10 +87,7 @@ body:       |
         <dt><a href="{{ project['link'] }}">Project {{ '{:02}'.format(index) }}: {{ project['name'] }}</a></dt>
         <dd>
         {% set members = sorted(project['members']) %}
-        <tt>{{ members[0] }}</tt>
-        {% for member in members[1:] %}
-        , <tt>{{ member }}</tt>
-        {% end %}
+        <tt>{{ members[0] }}</tt>{% for member in members[1:] %}, <tt>{{ member }}</tt>{% end %}
         </dd>
         {% end %}
         </dl>
