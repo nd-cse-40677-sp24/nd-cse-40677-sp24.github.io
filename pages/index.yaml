@@ -148,7 +148,7 @@ body:       |
                       {% set item['label'] = 'danger' %}
                     {% elif item['name'].lower().startswith('checklist') %}
                       {% set item['label'] = 'info' %}
-                    {% elif item['name'].lower().startswith('notebook') %}
+                    {% elif item['name'].lower().startswith('slides') %}
                       {% set item['label'] = 'success' %}
                     {% else %}
                       {% set item['label'] = 'default' %}
