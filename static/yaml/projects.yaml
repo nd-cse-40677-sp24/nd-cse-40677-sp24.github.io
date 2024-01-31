@@ -1,5 +1,5 @@
-- name:     Web Shell
-  link: 
+- name:     WISSH
+  link:     https://wissh-nd.github.io/
   members:
     - cvalenc3
     - abannan
@@ -7,7 +7,7 @@
     - jporubci
     - kwilli29
 
-- name:     Pastebin
+- name:     DocuDump
   link: 
   members:
     - cbowers4
@@ -15,15 +15,15 @@
     - dblittsc
     - kconnor3
 
-- name:     Lighting System
-  link: 
+- name:     Creativity Optional
+  link:     https://bcaven.github.io/creativity-optional-vue/index.html
   members:
     - jlindel2
     - abayanzu
     - cbrown62
     - jcaven
 
-- name:     Career Connections
+- name:     Odyssey
   link: 
   members:
     - cdixon5
@@ -39,28 +39,28 @@
     - snelso24
     - dbrooks6
 
-- name:     Git-inspired Video Game
+- name:     Octopus
   link: 
   members:
     - mchen24
     - jpireshe
     - ztong2
 
-- name:     Integrated Marketing
-  link: 
+- name:     AdVisor
+  link:     https://advisr.app/
   members:
     - gpradofe
     - gelbling
     - zfarley
 
-- name:     Financial Data Firefox Extension
+- name:     Bookworm
   link: 
   members:
     - jklonosk
     - toconn23
     - scarnogu
 
-- name:     Isometric Horror Video Game
+- name:     Human Resources
   link: 
   members:
     - arodri37
@@ -68,7 +68,7 @@
     - smancin2
     - dvazque2
 
-- name:     Community-based Fitness Tracker
+- name:     Atlas
   link: 
   members:
     - dbrown39
@@ -77,8 +77,8 @@
     - etracey
     - mturzai
 
-- name:     Deck Building Video Game
-  link: 
+- name:     Cardtorium
+  link:     https://open-source-software-development.github.io/Cardtorium-Website/
   members:
     - abattag2
     - jban
