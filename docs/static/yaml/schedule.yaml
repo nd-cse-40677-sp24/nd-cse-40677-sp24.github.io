@@ -49,11 +49,11 @@
         topics:         Sprint
 
       - date:           Wed 02/07
-        topics:         Briefing (TBD)
+        topics:         Briefing (Evens)
         assignment:     Progress 2
 
       - date:           Fri 02/09
-        topics:         Briefing (TBD)
+        topics:         Briefing (Odds)
 
 - name:     Milestone 2
   days:
@@ -61,11 +61,11 @@
         topics:         Sprint
 
       - date:           Wed 02/14
-        topics:         Presentation (TBD)
+        topics:         Presentation (Evens)
         assignment:     Milestone 2
 
       - date:           Fri 02/16
-        topics:         Presentation (TBD)
+        topics:         Presentation (Odds)
 
 - name:     "Milestine 3: Prototype"
 
